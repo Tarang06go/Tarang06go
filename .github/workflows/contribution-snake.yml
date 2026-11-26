@@ -1,0 +1,46 @@
+name: Contribution snake
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/contribution-snake.yml']
+  schedule:
+    - cron: '27 3 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/contribution-snake.svg?color_snake=#ff498f&color_dots=#30304a,#46e4d1,#56b4ff,#a58aff,#ffc857
+      - uses: actions/upload-artifact@v4
+        with:
+          name: snake
+          path: dist/contribution-snake.svg
+  publish:
+    needs: generate
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          name: snake
+          path: assets
+      - name: Publish refreshed artwork
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add assets/contribution-snake.svg
+          if ! git diff --cached --quiet; then
+            git commit -m 'Refresh contribution snake'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
