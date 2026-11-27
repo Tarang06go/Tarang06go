@@ -20,7 +20,7 @@ I’m building **Wrapchik** to take campus lunch orders out of WhatsApp chats. S
 
 [![Wildlife AI Studio: an illustrated toucan, forest canopy and acoustic waveform](./wildlife-ai-studio/social-preview.png)](./wildlife-ai-studio/README.md)
 
-I built a browser-based field audio analyzer around the wildlife models Amisha and I developed. It identifies a dominant species and lets you play the exact five-second window where several species triggered alerts. The focal model achieved **76.054% independent-window accuracy** on our duplicate-cleaned audit.
+I built a browser-based field audio analyzer around the wildlife models I developed. It identifies a dominant species and lets you play the exact five-second window where several species triggered alerts. The focal model achieved **76.054% independent-window accuracy** on our duplicate-cleaned audit.
 
 [See the project and recorded demo](./wildlife-ai-studio/README.md)
 
