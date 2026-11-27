@@ -16,6 +16,14 @@ I’m building **Wrapchik** to take campus lunch orders out of WhatsApp chats. S
 
 ## What I’ve built
 
+### Featured project · Wildlife AI Studio
+
+[![Wildlife AI Studio: an illustrated toucan, forest canopy and acoustic waveform](./wildlife-ai-studio/social-preview.png)](./wildlife-ai-studio/README.md)
+
+I built a browser-based field audio analyzer around the wildlife models Amisha and I developed. It identifies a dominant species and lets you play the exact five-second window where several species triggered alerts. The focal model achieved **76.054% independent-window accuracy** on our duplicate-cleaned audit.
+
+[See the project and recorded demo](./wildlife-ai-studio/README.md)
+
 | Project | Inside the repo |
 | --- | --- |
 | 🛩️ [Jet Engine RUL Prediction](https://github.com/Tarang06go/Jet-Engine-RUL-Prediction) | How much operating life does a turbofan have left? I used an LSTM model and NASA’s CMAPSS dataset to estimate it. |
