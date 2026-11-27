@@ -1,51 +1,50 @@
 ![Hey, I’m Tarang. Full-stack development and machine learning.](./profile-wave.svg)
 
-I build software for keeping track of things, from property records to the remaining life of a jet engine.
+I build web and mobile applications, inference services, and machine learning tools for real-world problems.
 
 [![Connect with Tarang on LinkedIn](https://img.shields.io/badge/LinkedIn-Tarang%20Agrawal-0A66C2?style=for-the-badge)](https://www.linkedin.com/in/tarang-agrawal-19774b2a9/)
 
-[![Currently building Wrapchik, a campus food ordering and shop management app](./assets/wrapchik.svg)](https://github.com/Tarang06go/ucs503p-202627odd-wrapchik/tree/master/code/wrapchik)
+[![Wrapchik — completed campus application, a campus food ordering and shop management app](./assets/wrapchik.svg)](https://github.com/Tarang06go/ucs503p-202627odd-wrapchik/tree/master/code/wrapchik)
 
-I’m building **Wrapchik** to take campus lunch orders out of WhatsApp chats. Students can order from their phones, and the shopkeeper can manage the menu and incoming orders in one place.
+I built **Wrapchik**, a campus food ordering and shop management application. Students can order from their phones, and the shopkeeper can manage the menu and incoming orders in one place.
 
 [Explore the app and its architecture →](https://github.com/Tarang06go/ucs503p-202627odd-wrapchik/tree/master/code/wrapchik#readme)
 
 ## My tech stack
 
-![JavaScript, React, Node.js, Express, MongoDB, Java, MySQL, and Python](https://skillicons.dev/icons?i=js,react,nodejs,express,mongodb,java,mysql,python&theme=dark)
+![Technologies used across my projects](./assets/technology-stack.svg)
 
 ## What I’ve built
 
-### Featured project · Wildlife AI Studio
+### Wildlife AI Studio
 
-[![Wildlife AI Studio: an illustrated toucan, forest canopy and acoustic waveform](./wildlife-ai-studio/social-preview.png)](./wildlife-ai-studio/README.md)
+<a href="./wildlife-ai-studio/README.md"><img src="./wildlife-ai-studio/social-preview.png" width="640" alt="Wildlife AI Studio — interactive field audio recognition" /></a>
 
+<<<<<<< HEAD
 I built a browser-based field audio analyzer around the wildlife models I developed. It identifies a dominant species and lets you play the exact five-second window where several species triggered alerts. The focal model achieved **76.054% independent-window accuracy** on our duplicate-cleaned audit.
+=======
+Audio recognition with Perch V2, interactive species timelines and simultaneous alerts. Developed with Amisha; **76.054% independent-window accuracy** on the duplicate-cleaned audit.
+>>>>>>> c592195 (Polish profile projects, mark Wrapchik complete and feature Kaggle)
 
 [See the project and recorded demo](./wildlife-ai-studio/README.md)
 
-| Project | Inside the repo |
-| --- | --- |
-| 🛩️ [Jet Engine RUL Prediction](https://github.com/Tarang06go/Jet-Engine-RUL-Prediction) | How much operating life does a turbofan have left? I used an LSTM model and NASA’s CMAPSS dataset to estimate it. |
-| 🏘️ [EstateFlow](https://github.com/Tarang06go/EstateFlow) | A desktop app for managing property records. JavaFX provides the interface, and JDBC connects it to MySQL. |
-| 🗂️ [Criminal Record System](https://github.com/Tarang06go/criminal-record-system) | A full-stack records app with a React frontend, a Node.js backend, and a MySQL database. |
+| Project | What it does | Core technologies |
+| --- | --- | --- |
+| [Wrapchik](https://github.com/Tarang06go/ucs503p-202627odd-wrapchik/tree/master/code/wrapchik) | Campus food ordering and shop management | React Native · Expo · Express · MongoDB |
+| [Wildlife AI Studio](./wildlife-ai-studio/README.md) | Field audio recognition and overlapping species detection | Python · Perch V2 · FastAPI · React · Docker |
+| [EstateFlow](https://github.com/Tarang06go/EstateFlow) | **Java desktop application** for property records | Java · JavaFX · JDBC · MySQL |
+| [Jet Engine RUL](https://github.com/Tarang06go/Jet-Engine-RUL-Prediction) | Estimates remaining engine life from sensor data | Python · TensorFlow · Keras · LSTM |
+| [Criminal Record System](https://github.com/Tarang06go/criminal-record-system) | Searchable records and case management | React · Node.js · MySQL |
 
-## Coding profiles
+## Practice & research
 
-<!-- LeetCode: wrap this badge in <a href="YOUR_PROFILE_URL"> ... </a> when ready. -->
-<img alt="LeetCode" src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&amp;logo=leetcode&amp;logoColor=white" />
-<!-- Codeforces: wrap this badge in <a href="YOUR_PROFILE_URL"> ... </a> when ready. -->
-<img alt="Codeforces" src="https://img.shields.io/badge/Codeforces-2676C6?style=for-the-badge&amp;logo=codeforces&amp;logoColor=white" />
-<!-- HackerRank: wrap this badge in <a href="YOUR_PROFILE_URL"> ... </a> when ready. -->
-<img alt="HackerRank" src="https://img.shields.io/badge/HackerRank-178553?style=for-the-badge&amp;logo=hackerrank&amp;logoColor=white" />
-<!-- Kaggle: wrap this badge in <a href="YOUR_PROFILE_URL"> ... </a> when ready. -->
-<img alt="Kaggle" src="https://img.shields.io/badge/Kaggle-007BA5?style=for-the-badge&amp;logo=kaggle&amp;logoColor=white" />
+<p>
+<img alt="LeetCode" src="https://img.shields.io/badge/LeetCode-26343e?style=flat-square&amp;logo=leetcode&amp;logoColor=E6B46B" />
+<a href="https://www.kaggle.com/tarang02agrawal"><img alt="Kaggle profile" src="https://img.shields.io/badge/Kaggle-26343e?style=flat-square&amp;logo=kaggle&amp;logoColor=9FC3DE" /></a>
+</p>
 
-## Contribution snake 🐍
+## Contributions
 
 ![A hot-pink snake eating colorful squares from my GitHub contribution calendar](./assets/contribution-snake.svg)
 
-## Recent contributions
-
-[![Line chart of Tarang’s recent GitHub contributions](https://github-readme-activity-graph.vercel.app/graph?username=Tarang06go&bg_color=131126&color=c9bcff&line=aa91ff&point=55e8cc&area=true&hide_border=true)](https://github.com/Tarang06go?tab=overview#js-contribution-activity)
-
+[View recent contributions on GitHub →](https://github.com/Tarang06go?tab=overview#js-contribution-activity)
