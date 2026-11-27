@@ -4,7 +4,7 @@ I build web and mobile applications, inference services, and machine learning to
 
 [![Connect with Tarang on LinkedIn](https://img.shields.io/badge/LinkedIn-Tarang%20Agrawal-0A66C2?style=for-the-badge)](https://www.linkedin.com/in/tarang-agrawal-19774b2a9/)
 
-[![Wrapchik — completed campus application, a campus food ordering and shop management app](./assets/wrapchik.svg)](https://github.com/Tarang06go/ucs503p-202627odd-wrapchik/tree/master/code/wrapchik)
+[![Wrapchik, a campus food ordering and shop management app](./assets/wrapchik.svg)](https://github.com/Tarang06go/ucs503p-202627odd-wrapchik/tree/master/code/wrapchik)
 
 I built **Wrapchik**, a campus food ordering and shop management application. Students can order from their phones, and the shopkeeper can manage the menu and incoming orders in one place.
 
@@ -20,11 +20,7 @@ I built **Wrapchik**, a campus food ordering and shop management application. St
 
 <a href="./wildlife-ai-studio/README.md"><img src="./wildlife-ai-studio/social-preview.png" width="640" alt="Wildlife AI Studio — interactive field audio recognition" /></a>
 
-<<<<<<< HEAD
-I built a browser-based field audio analyzer around the wildlife models I developed. It identifies a dominant species and lets you play the exact five-second window where several species triggered alerts. The focal model achieved **76.054% independent-window accuracy** on our duplicate-cleaned audit.
-=======
-Audio recognition with Perch V2, interactive species timelines and simultaneous alerts. Developed with Amisha; **76.054% independent-window accuracy** on the duplicate-cleaned audit.
->>>>>>> c592195 (Polish profile projects, mark Wrapchik complete and feature Kaggle)
+Audio recognition with Perch V2, interactive species timelines and simultaneous alerts. **76.054% independent-window accuracy** on the duplicate-cleaned audit.
 
 [See the project and recorded demo](./wildlife-ai-studio/README.md)
 
