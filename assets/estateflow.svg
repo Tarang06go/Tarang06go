@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="160" viewBox="0 0 900 160" role="img" aria-labelledby="title">
+<title id="title">EstateFlow — Java desktop property management</title>
+<defs><linearGradient id="bg"><stop stop-color="#152b56"/><stop offset="1" stop-color="#264775"/></linearGradient><linearGradient id="glass" x2="0" y2="1"><stop stop-color="#8de0dc"/><stop offset="1" stop-color="#438baf"/></linearGradient></defs>
+<rect width="900" height="160" rx="16" fill="url(#bg)"/>
+<path d="M530 160L700 0M600 160L770 0M670 160L840 0M740 160L910 0" stroke="#416089" opacity=".3"/>
+<g font-family="Segoe UI,Arial,sans-serif">
+<text x="32" y="36" font-size="12" letter-spacing="2.5" fill="#91d6de">JAVA DESKTOP APPLICATION</text>
+<text x="29" y="96" font-size="53" font-weight="650" letter-spacing="-2" fill="#eff5ff">EstateFlow</text>
+<text x="33" y="131" font-size="17" fill="#b6cee8">Property records. Organized.</text>
+</g>
+<g transform="translate(686 20)">
+<path d="M-8 120H160" stroke="#90afcc" stroke-width="2"/>
+<path d="M7 120V36L49 15V120Z" fill="#547da3"/><path d="M49 15L84 35V120H49Z" fill="#315572"/>
+<path d="M84 120V59L115 39L145 59V120Z" fill="#739caf"/>
+<path d="M100 119V90H127V119Z" fill="#1e3856"/>
+<g fill="url(#glass)"><path d="M17 43L28 38V52L17 57ZM34 35L43 31V45L34 49ZM17 66L28 61V75L17 80ZM34 58L43 54V68L34 72ZM17 89L28 84V98L17 103ZM34 81L43 77V91L34 95Z"/><path d="M58 40H70V54H58ZM58 64H70V78H58ZM58 88H70V102H58ZM97 67H108V79H97ZM119 67H130V79H119Z"/></g>
+<circle cx="143" cy="26" r="12" fill="#f6ce7f"/>
+</g></svg>
