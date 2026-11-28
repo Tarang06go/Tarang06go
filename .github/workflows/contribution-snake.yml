@@ -18,7 +18,18 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/contribution-snake.svg?color_snake=#00ffad&color_dots=#25243b,#3c52ff,#9625ff,#ff228d,#ff8c00
+            dist/contribution-snake.svg?color_snake=#00885d&color_dots=#dedbd7,#3c52ff,#9625ff,#ff228d,#ff8c00
+      - name: Add warm off-white canvas
+        shell: python
+        run: |
+          from pathlib import Path
+          from xml.etree import ElementTree
+          path = Path('dist/contribution-snake.svg')
+          svg = path.read_text(encoding='utf-8')
+          x, y, width, height = ElementTree.fromstring(svg).attrib['viewBox'].split()
+          background = f'<rect x="{x}" y="{y}" width="{width}" height="{height}" rx="12" fill="#FAF8F3" stroke="#B8B3AE"/>'
+          start = svg.index('>', svg.index('<svg')) + 1
+          path.write_text(svg[:start] + background + svg[start:], encoding='utf-8')
       - uses: actions/upload-artifact@v4
         with:
           name: snake
