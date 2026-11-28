@@ -24,7 +24,7 @@ How many flight cycles does a turbofan have left? An LSTM trained on NASA C-MAPS
 
 [Repository and results](https://github.com/Tarang06go/Jet-Engine-RUL-Prediction) · [Executed notebook](https://github.com/Tarang06go/Jet-Engine-RUL-Prediction/blob/main/turbofan_rul_prediction.ipynb)
 
-[![EstateFlow](./assets/folio/estate.svg)](https://github.com/Tarang06go/EstateFlow)
+[![EstateFlow](https://raw.githubusercontent.com/Tarang06go/EstateFlow/master/docs/showcase/social-preview.png)](https://github.com/Tarang06go/EstateFlow)
 
 A JavaFX property-management desktop app with an audit trail, ordered MySQL migrations and a documented Windows install and recovery process.
 
