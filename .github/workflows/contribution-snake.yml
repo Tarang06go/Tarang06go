@@ -18,7 +18,7 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/contribution-snake.svg?color_snake=#99e1cf&color_dots=#29323a,#506b78,#658b98,#8db8bc,#e0c7a1
+            dist/contribution-snake.svg?color_snake=#ff887e&color_dots=#25243b,#976ef5,#54d4ea,#77ebbe,#ffca69
       - uses: actions/upload-artifact@v4
         with:
           name: snake
