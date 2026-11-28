@@ -1,60 +1,62 @@
-![Hey, I’m Tarang. Full-stack development and machine learning.](./profile-wave.svg)
+<img src="./assets/folio/hero.svg" width="100%" alt="Tarang Agrawal — Building at the intersection of software, systems &amp; intelligence." />
 
-I build web and mobile applications, inference services, and machine learning tools for real-world problems.
+I’m a computer science student working across **software engineering, cloud systems and applied AI**. My projects range from mobile ordering and database-backed desktop tools to models that interpret field recordings and engine sensor data.
 
-<p>
-<a href="https://www.linkedin.com/in/tarang-agrawal-19774b2a9/"><img src="./assets/linkedin.svg" height="36" alt="LinkedIn" title="LinkedIn" /></a>&nbsp;
-<a href="https://www.instagram.com/tarangunlocked/"><img src="./assets/social.svg" height="36" alt="Instagram — tarangunlocked" title="Instagram" /></a>&nbsp;
-<a href="https://www.kaggle.com/tarang02agrawal"><img src="./assets/kaggle.svg" height="36" alt="Kaggle — tarang02agrawal" title="Kaggle" /></a>
-</p>
+[LinkedIn](https://www.linkedin.com/in/tarang-agrawal-19774b2a9/) · [Kaggle](https://www.kaggle.com/tarang02agrawal) · [Instagram](https://www.instagram.com/tarangunlocked/)
 
-[![Wrapchik, a campus food ordering and shop management app](./assets/wrapchik.svg)](https://github.com/Tarang06go/ucs503p-202627odd-wrapchik/tree/master/code/wrapchik)
+## Selected projects
 
-I built **Wrapchik**, a campus food ordering and shop management application. Students can order from their phones, and the shopkeeper can manage the menu and incoming orders in one place.
+[![Wildlife AI Studio](./assets/folio/wildlife.svg)](https://github.com/Tarang06go/Tarang06go/tree/main/wildlife-ai-studio)
 
-[Explore the app and its architecture →](https://github.com/Tarang06go/ucs503p-202627odd-wrapchik/tree/master/code/wrapchik#readme)
+Explore a field recording in five-second windows, listen to possible overlapping callers and export the evidence. The historical duplicate-cleaned evaluation reported **76.054% window accuracy** across 4,269 recordings. The case study also documents missed species on later field clips.
 
-## My tech stack
+[Case study and evaluation](https://github.com/Tarang06go/Tarang06go/tree/main/wildlife-ai-studio) · [44-second recorded demo](https://github.com/Tarang06go/Tarang06go/blob/main/wildlife-ai-studio/unified-v1.2.mp4) · [Example audio](https://github.com/Tarang06go/Tarang06go/tree/main/wildlife-ai-studio/demos)
 
-<p><img src="./assets/stack-apps.svg" height="46" alt="JavaScript, TypeScript, React, Node.js, Express, Java, MongoDB, MySQL, FastAPI, Vite, Tailwind CSS" /></p>
-<p><img src="./assets/stack-ml.svg" height="46" alt="Python, PyTorch, TensorFlow, scikit-learn, Docker, Git, GitHub, Nginx, Cloudflare" /></p>
+[![Wrapchik](./assets/folio/wrapchik.svg)](https://github.com/Tarang06go/wrapchik-deployment)
 
-<details>
-<summary>Full toolkit</summary>
+A campus food outlet can take orders from student phones and manage its menu and incoming orders from the shop dashboard. The deployment guide covers API readiness, mobile builds and update rollback.
 
-![Technologies and supporting libraries used across my projects](./assets/technology-stack.svg)
+[Repository](https://github.com/Tarang06go/wrapchik-deployment) · [Deployment guide](https://github.com/Tarang06go/wrapchik-deployment/blob/master/DEPLOYMENT.md) · [Web demo](https://wrapchik-web-z7ur.onrender.com)
 
-</details>
+[![Jet Engine RUL Prediction](./assets/folio/engine.svg)](https://github.com/Tarang06go/Jet-Engine-RUL-Prediction)
 
-## What I’ve built
+An LSTM estimates how many flight cycles remain from turbofan sensor histories. The saved NASA C-MAPSS experiment reports **11.41 cycles RMSE**. The notebook also explores uncertainty with Monte Carlo dropout.
 
-### Wildlife AI Studio
+[Repository and results](https://github.com/Tarang06go/Jet-Engine-RUL-Prediction) · [Executed notebook](https://github.com/Tarang06go/Jet-Engine-RUL-Prediction/blob/main/turbofan_rul_prediction.ipynb)
 
-<a href="./wildlife-ai-studio/README.md"><img src="./wildlife-ai-studio/social-preview.png" width="640" alt="Wildlife AI Studio — interactive field audio recognition" /></a>
+[![EstateFlow](./assets/folio/estate.svg)](https://github.com/Tarang06go/EstateFlow)
 
-Audio recognition with Perch V2, interactive species timelines and simultaneous alerts. **76.054% independent-window accuracy** on the duplicate-cleaned audit.
+A JavaFX desktop application for property management with audit history, ordered database migrations and Windows packaging. The release guide walks through a clean install and database recovery.
 
-[See the project and recorded demo](./wildlife-ai-studio/README.md)
+[Repository](https://github.com/Tarang06go/EstateFlow) · [Release and backup guide](https://github.com/Tarang06go/EstateFlow/blob/master/docs/RELEASE_AND_BACKUP.md)
 
-[![EstateFlow — Java desktop property management](./assets/estateflow.svg)](https://github.com/Tarang06go/EstateFlow)
+[![Criminal Record System](./assets/folio/records.svg)](https://github.com/Tarang06go/criminal-record-system)
 
-| Project | What it does | Core technologies |
-| --- | --- | --- |
-| [Wrapchik](https://github.com/Tarang06go/ucs503p-202627odd-wrapchik/tree/master/code/wrapchik) | Campus food ordering and shop management | <img src="./assets/project-wrapchik.svg" height="26" alt="React Native, Expo, Express and MongoDB" title="React Native, Expo, Express and MongoDB" /> |
-| [Wildlife AI Studio](./wildlife-ai-studio/README.md) | Field audio recognition and overlapping species detection | <img src="./assets/project-wildlife.svg" height="26" alt="Python, PyTorch, FastAPI, React and Docker" title="Python, PyTorch, FastAPI, React and Docker" /> |
-| [EstateFlow](https://github.com/Tarang06go/EstateFlow) | **Java desktop application** for property records | <img src="./assets/project-estateflow.svg" height="26" alt="Java, JavaFX, JDBC and MySQL" title="Java, JavaFX, JDBC and MySQL" /> |
-| [Jet Engine RUL](https://github.com/Tarang06go/Jet-Engine-RUL-Prediction) | Estimates remaining engine life from sensor data | <img src="./assets/project-engine.svg" height="26" alt="Python, TensorFlow and Keras" title="Python, TensorFlow and Keras" /> |
-| [Criminal Record System](https://github.com/Tarang06go/criminal-record-system) | Searchable records and case management | <img src="./assets/project-records.svg" height="26" alt="React, Node.js and MySQL" title="React, Node.js and MySQL" /> |
+Officers and administrators work with case status, officer assignments and criminal profiles through a role-based web interface backed by a REST API and MySQL.
 
-## Practice & research
+[Repository and setup](https://github.com/Tarang06go/criminal-record-system) · [Web demo](https://criminal-record-system.vercel.app)
 
-<p>
-<img alt="LeetCode" src="https://img.shields.io/badge/LeetCode-26343e?style=flat-square&amp;logo=leetcode&amp;logoColor=E6B46B" />
-<a href="https://www.kaggle.com/tarang02agrawal"><img alt="Kaggle profile" src="https://img.shields.io/badge/Kaggle-26343e?style=flat-square&amp;logo=kaggle&amp;logoColor=9FC3DE" /></a>
-</p>
+## Engineering toolkit
 
-## Contributions
+| Discipline | Technologies used in these projects |
+| --- | --- |
+| <img src="./assets/folio/tool-0.svg" width="20" alt="" /> **Languages** | Python · JavaScript · TypeScript · Java · SQL |
+| <img src="./assets/folio/tool-1.svg" width="20" alt="" /> **Frontend and Mobile** | React · React Native · Expo · JavaFX |
+| <img src="./assets/folio/tool-2.svg" width="20" alt="" /> **Backend and Databases** | Express · FastAPI · MongoDB · MySQL |
+| <img src="./assets/folio/tool-3.svg" width="20" alt="" /> **AI and Machine Learning** | PyTorch · TensorFlow · Keras · Perch V2 |
+| <img src="./assets/folio/tool-4.svg" width="20" alt="" /> **Cloud and Infrastructure** | Docker · Docker Compose · Render · Vercel |
+| <img src="./assets/folio/tool-5.svg" width="20" alt="" /> **Developer Tools** | Git · GitHub Actions · Maven · Vite |
 
-![A hot-pink snake eating colorful squares from my GitHub contribution calendar](./assets/contribution-snake.svg)
+## GitHub activity
 
-[View recent contributions on GitHub →](https://github.com/Tarang06go?tab=overview#js-contribution-activity)
+<img src="./assets/folio/activity.svg" width="400" alt="Public repositories, stars and contributions" />
+<img src="./assets/folio/languages.svg" width="400" alt="Top languages by detected source bytes" />
+<img src="./assets/folio/streak.svg" width="400" alt="Current and longest calendar streaks" />
+
+Language shares use public, owned, non-fork repositories. Streaks use the last 365 contribution-calendar days and allow today to finish in UTC.
+
+![Animated contribution calendar](./assets/contribution-snake.svg)
+
+[Contribution history](https://github.com/Tarang06go?tab=overview#js-contribution-activity)
+
+<img src="./assets/folio/footer.svg" width="100%" alt="Tarang Agrawal" />
