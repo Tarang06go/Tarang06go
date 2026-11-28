@@ -74,7 +74,7 @@ for date, count in days:
         totals[week] += count
 
 peak = max(totals.values())
-parts = ['<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 230" font-family="Segoe UI,Arial,sans-serif">',
+parts = ['<svg xmlns="http://www.w3.org/2000/svg" width="860" height="230" viewBox="0 0 860 230" font-family="Segoe UI,Arial,sans-serif">',
          '<rect width="860" height="230" rx="20" fill="#100e25"/>',
          '<text x="26" y="39" font-size="24" font-weight="700" fill="white">Weekly contributions</text>',
          f'<text x="835" y="38" text-anchor="end" font-size="17" fill="#a6dfff">26 weeks · Peak {peak}</text>']
